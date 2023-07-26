@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/bg-desktop.svg);
+    background-color: rgb(103,75,177);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo{
+    padding: 40px;
+    height: auto;
+    width: 250px;
+}
+.ph{
+    display: inline-block;
+    height: 450px;
+    width: 700px;
+    padding: 15px;
+    margin-left: 30px;
+}
+.main{
+    color: white;
+}
+.main >.contain>h2{
+    padding: 10px;
+    position: absolute;
+    top: 180px;
+    left: 752px;
+    right: 142px;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+.main >.contain>span{
+    padding: 10px;
+    position: absolute;
+    top: 320px;
+    left: 766px;
+    right: 142px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(199, 199, 195);
+}
+.main >.contain>h4{
+    padding: 10px;
+    position: absolute;
+    top: 420px;
+    left: 769px;
+    right: 430px;
+    height: 40px;
+    width: 120px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(90, 60, 172);
+}
